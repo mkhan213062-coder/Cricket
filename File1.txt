@@ -1,1 +1,2 @@
 Some text from file 1   
+In my Branch2 edited file1
