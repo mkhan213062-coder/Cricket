@@ -1,0 +1,46 @@
+. Go to your GitHub and create a repository named Cricket -
+. Clone this repository onto your desktop -
+    - git clone https://github.com/mkhan213062-coder/Cricket.git
+. Create 2 files named File1.txt and File2.txt. Write some text in both the files.
+. Commit the changes that you have made
+   git add .
+   git commit -m"InitialLocalCommit"
+. See the status of the repository. Edit the text in File1.txt. See the status of the repository now. Commit the changes.   
+   - git status
+   - git add .
+   - git commit -m"SecondCimmitModifiedFile2"
+
+. Edit the text in File2.txt. Commit the changes.
+. Show the logs that changed File1.txt
+-   -commit 1aec04752f84e75c03fed5e29c3c1e1db413d092
+    Author: prime <mkhan213062@bscse.uiu.ac.bd>
+    Date:   Sat Sep 20 11:40:24 2025 +0600
+    SecondCimmitModifiedFile2
+. Show the logs that changed File2.txt -
+    -commit 1aec04752f84e75c03fed5e29c3c1e1db413d092
+    Author: prime <mkhan213062@bscse.uiu.ac.bd>
+    Date:   Sat Sep 20 11:40:24 2025 +0600
+    SecondCimmitModifiedFile2
+.Create 2 new branches named Branch1 and Branch2
+ -git branch Branch1
+ -git branch Branch2
+. Move to Branch1. Change File2.txt. See the logs. Commit the changes.
+   - git checkout Branch1
+   -git log -
+   commit 45bf9108c0e08a2ee136752db06c693de72d4fde (Branch1)      
+   Author: prime <mkhan213062@bscse.uiu.ac.bd>
+   Date:   Sat Sep 20 11:45:01 2025 +0600
+    CommitFromBranch1
+.Move to Branch2. Change File1.txt. Commit the changes-
+  -git checkout Branch2
+  -git log -
+    commit 230410959f38f4eecc468e6f5e5b80cdef035c8a (Branch2)      
+    Author: prime <mkhan213062@bscse.uiu.ac.bd>
+    Date:   Sat Sep 20 11:46:47 2025 +0600
+    CommitFromBranch2
+.Move to the Master branch. Merge Branch1 and Branch2 to the Master branch.
+    -git checkout main
+    git merge Branch1
+    git merge Branch2
+.Sync your work with the version in GIT and then upload your work to GitHub.
+ - git push -u origin main    
