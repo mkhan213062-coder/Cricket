@@ -1,1 +1,1 @@
-Some text from file 2
+Edited the Second File
