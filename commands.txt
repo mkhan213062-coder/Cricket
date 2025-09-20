@@ -6,7 +6,10 @@
    git add .
    git commit -m"InitialLocalCommit"
 . See the status of the repository. Edit the text in File1.txt. See the status of the repository now. Commit the changes.   
-   - git status
+   - git status - 
+    Untracked files:
+    (use "git add ..." to include in what will be committed)
+    File1.txt
    - git add .
    - git commit -m"SecondCimmitModifiedFile2"
 
